@@ -1,0 +1,30 @@
+{
+"Columns_dict" : {
+    "BULGES_COLUMN": "bulges",
+    "MISMATCH_COLUMN": "missmatches",
+    "TARGET_COLUMN": "target",
+    "REALIGNED_COLUMN": "realigned_target",
+    "OFFTARGET_COLUMN": "offtarget_sequence",
+    "CHROM_COLUMN": "chrom",
+    "START_COLUMN": "chromStart",
+    "END_COLUMN": "chromEnd",
+    "BINARY_LABEL_COLUMN": "Label",
+    "REGRESSION_LABEL_COLUMN": "Read_count",
+    "DOWNSTREAM_COLUMN" : "downstream"
+},
+"Change_seq" : {
+    "Guides_path" : "Data_sets",
+    "Vivo-silico" : "Data_sets/vivo-silico-78-Guides_withEpigenetic.csv",
+    "Vivo-vitro" : "Null",
+    "Vitro-silico" : "Null",
+    "Model_path" : "Models",
+    "ML_results_path" : "ML_results",
+    "Epigenetic_folder" : "Null",
+    "Big_wig_folder" : "Null",
+    "Partition_information" : "Null",
+    "Data_name" : "Lazzarotto",
+    "Plots_path" : "Plots"
+    
+   
+}
+}

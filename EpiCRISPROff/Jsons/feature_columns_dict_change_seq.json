@@ -1,0 +1,6 @@
+{
+    
+    "Binary_epigenetics" : ["H3K27me3_peaks_binary","H3K27ac_peaks_binary", "H3K9ac_peaks_binary", "H3K9me3_peaks_binary", "H3K36me3_peaks_binary", "ATAC-seq_peaks_binary", "H3K4me3_peaks_binary", "H3K4me1_peaks_binary"],
+    "Subset2-Binary_epigenetics": ["H3K27me3_peaks_binary", "H3K27ac_peaks_binary", "ATAC-seq_peaks_binary", "H3K4me3_peaks_binary", "H3K4me1_peaks_binary"]
+
+}

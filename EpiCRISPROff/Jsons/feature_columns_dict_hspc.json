@@ -1,0 +1,5 @@
+{
+    "Binary_epigenetics" : ["H3K27me3_binary", "H3K27ac_binary", "ATAC-seq_binary", "H3K4me3_binary", "H3K4me1_binary"],
+    "Subset2-Binary_epigenetics": ["H3K27me3_binary", "H3K27ac_binary", "ATAC-seq_binary", "H3K4me3_binary", "H3K4me1_binary"]
+
+}

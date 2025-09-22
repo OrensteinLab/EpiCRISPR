@@ -1,0 +1,7 @@
+--model 6
+--cross_val 3
+--features_method 2
+--features_columns Jsons/feature_columns_dict_change_seq.json
+--job evaluation
+--exclude_guides  Data_sets/sg_rna_lists.csv Refined_TrueOT
+--test_on_other_data Jsons/test_on_other_data.json Refined_TrueOT_Lazzarroto
