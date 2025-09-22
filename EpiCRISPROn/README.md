@@ -1,5 +1,5 @@
-# EpiCRISPR
-We present EpiCRISPR, a tool designed to predict CRISPR/Cas9 on-target efficiency by incorporating epigenetic and high-throughput data. EpiCRISPR is a multi-layered perceptron consisting of fully connected layers with 64 and 8 neurons, terminating in a final neuron that outputs on-target efficiency. The input includes a fixed RNA sequence of 32nt length, ten possible epigenetic markers (chromatin accessibility, CTCF binding, DNA methylation, and seven histone modifications: H3K4me1, H3K4me3, H3K9me3, H3K27me3, H3K36me3, H3K9ac, and H3K27ac), and information from a high-throughput data-based model (we used CRISPROn's score predictions).
+# EpiCRISPROn
+We present EpiCRISPROn, a tool designed to predict CRISPR/Cas9 on-target efficiency by incorporating epigenetic and high-throughput data. EpiCRISPROn is a multi-layered perceptron consisting of fully connected layers with 64 and 8 neurons, terminating in a final neuron that outputs on-target efficiency. The input includes a fixed RNA sequence of 32nt length, ten possible epigenetic markers (chromatin accessibility, CTCF binding, DNA methylation, and seven histone modifications: H3K4me1, H3K4me3, H3K9me3, H3K27me3, H3K36me3, H3K9ac, and H3K27ac), and information from a high-throughput data-based model (we used CRISPROn's score predictions).
 
 We utilized the Leenay et al. dataset to evaluate the contributions of flanking sequences, epigenetic marks, and high-throughput data to on-target efficiency prediction. Our results indicate that epigenetic markers play a crucial role in predicting CRISPR/Cas9 on-target efficiency. Moreover, we demonstrated the generalizability of our trained model by successfully predicting on-target efficiency in other cell types.
 
@@ -7,7 +7,7 @@ We utilized the Leenay et al. dataset to evaluate the contributions of flanking 
 The model is implemented with Keras 2.8.4 using Tensorflow backend and numpy 1.24.3.
 
 # Run
-To run EpiCRISPR follow the instruction bellow:
+To run EpiCRISPROn follow the instruction bellow:
 
 ### Model Training and evaluation:
 For training the model and evaluating it with specific epigenetic markers and high-throughput data information using the Leenay et al. dataset:
