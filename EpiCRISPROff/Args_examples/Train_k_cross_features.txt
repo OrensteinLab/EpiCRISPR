@@ -1,0 +1,5 @@
+--model 6
+--cross_val 2
+--features_method 2
+--features_columns Jsons/feature_columns_dict_change_seq.json
+--job train
